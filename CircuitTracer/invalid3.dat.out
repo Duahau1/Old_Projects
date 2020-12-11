@@ -1,0 +1,4 @@
+InvalidFileFormatException: The number of ending positions (0) does not match the expected of 1 end point
+	at CircuitBoard.<init>(CircuitBoard.java:49)
+	at CircuitTracer.<init>(CircuitTracer.java:75)
+	at CircuitTracer.main(CircuitTracer.java:30)

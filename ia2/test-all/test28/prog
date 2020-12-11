@@ -1,0 +1,12 @@
+#test if else#
+rd x;
+if x == 0 then
+	wr x + 5
+else	
+	wr x
+;
+rd x;
+if x == 0 then
+	wr x + 5
+else 
+	wr x

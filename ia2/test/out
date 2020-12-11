@@ -1,0 +1,2 @@
+cat: ./test-all/./test/in: No such file or directory
+Error: Could not find or load main class Interpreter

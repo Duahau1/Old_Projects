@@ -1,0 +1,20 @@
+# if with blocks #
+rd x;
+if x < 7 then
+begin
+	wr x;
+	wr 2*x;
+	wr 2/x;
+	wr 2+x;
+	wr 2-x
+end;
+rd x;
+if x < 7 then
+begin
+	wr x;
+	wr 2*x;
+	wr 2/x;
+	wr 2+x;
+	wr 2-x
+end
+

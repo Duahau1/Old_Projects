@@ -1,0 +1,9 @@
+rd x;
+#test while with block and if#
+while x <> 0 do
+begin
+	if x < -3 then
+		wr x
+	;
+	rd x
+end

@@ -1,0 +1,8 @@
+# nested ifs #
+rd x;
+rd y;
+rd z;
+if 0 < x then
+	if x < y then
+		if y < z then
+			wr x + y + z

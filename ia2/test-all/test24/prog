@@ -1,0 +1,16 @@
+begin # test nested blocks #
+	 x = 5; 
+	wr x ;
+	begin
+		x = 4.5 + x;
+		begin
+			wr x
+		end
+	end;
+	y = x*x;   
+	begin
+		wr y;
+		  y = y + 1.5   
+	end;
+	wr y
+end

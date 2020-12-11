@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="build/|de/|doclet/|lib/|misc/|test/" kind="src" output="core" path="jEdit"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="C:/Users/nguye/Desktop/Fall2019/jEdit/lib/ant-contrib/ant.jar"/>
+	<classpathentry kind="lib" path="jEdit/lib/ant-contrib/ant-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nguye/Downloads/org.apache.commons.io.jar/org.apache.commons.io.jar"/>
+	<classpathentry kind="output" path="build-eclipse"/>
+</classpath>

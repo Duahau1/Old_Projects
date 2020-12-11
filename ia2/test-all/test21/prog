@@ -1,0 +1,24 @@
+#test if stmt#
+rd x;
+if x == 0 then
+	wr x + 5
+;
+rd x;
+if x > 0 then
+	wr 2*x
+;
+rd x;
+if x < 0 then
+	wr 2*-x
+;
+rd x;
+if x <> 0 then
+	wr 4 + 3*x
+;
+rd x;
+if x >= 0 then 
+	wr x
+;
+rd x;
+if x <= 0 then
+	wr x/4

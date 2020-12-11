@@ -1,0 +1,5 @@
+x = 6.75;
+# test while # while 0 < x do
+	x = x - .8543
+;
+wr x

@@ -1,0 +1,4 @@
+InvalidFileFormatException: Grid column does match the expected value (0). Grid col: 3
+	at CircuitBoard.<init>(CircuitBoard.java:49)
+	at CircuitTracer.<init>(CircuitTracer.java:75)
+	at CircuitTracer.main(CircuitTracer.java:30)

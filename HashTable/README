@@ -1,0 +1,15 @@
+The text files in this directory contain String values
+followed by a key value for each String, one per line.
+
+The -sol files contain the expected output from
+the HashTest program running on those given files
+with various alph and capacity inputs.
+
+List of included files:
+
+sample.txt	 6 KB
+sample-sol	 2 KB
+go-dog-go.txt	 8 KB
+go-dog-go-sol	 5 KB
+alice.txt	 254 KB
+alice-sol	 244 KB

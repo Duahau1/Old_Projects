@@ -1,0 +1,8 @@
+x = 6.75;
+wr x;
+while 0 < x do #test while with##block#
+begin
+	x = x - .8543;
+	wr x
+end;
+wr x

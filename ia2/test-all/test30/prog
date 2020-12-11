@@ -1,0 +1,36 @@
+# if-else with blocks #
+rd x;
+if x < 7 then
+begin
+	wr x;
+	wr 2*x;
+	wr 2/x;
+	wr 2+x;
+	wr 2-x
+end
+else
+begin
+	wr x;
+	wr 3*x;
+	wr 3/x;
+	wr 3+x;
+	wr 3-x
+end
+;
+rd x;
+if x < 7 then
+begin
+	wr x;
+	wr 2*x;
+	wr 2/x;
+	wr 2+x;
+	wr 2-x
+end
+else
+begin
+	wr x;
+	wr 3*x;
+	wr 3/x;
+	wr 3+x;
+	wr 3-x
+end

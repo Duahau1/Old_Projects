@@ -1,0 +1,8 @@
+ x = 5; 
+wr x ; 
+x = 4.5 + x;
+wr x;
+y = x*x;   
+wr y;
+  y = y + 1.5   ;   
+wr y

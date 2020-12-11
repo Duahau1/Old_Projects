@@ -1,0 +1,269 @@
+// example 1 - sample.txt
+$java HashTest 0.25 584 sample.txt 2 0
+
+Using Linear Probing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 39.834953
+
+
+Using Double Hashing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 3.2330098
+
+
+// example 2 - sample.txt
+$java HashTest 0.5 292 sample.txt 2 0
+
+Using Linear Probing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 39.834953
+
+
+Using Double Hashing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 3.2427185
+
+
+// example 3 - sample.txt
+$java HashTest 0.75 195 sample.txt 2 0
+
+Using Linear Probing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 39.834953
+
+
+Using Double Hashing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 3.4563107
+
+// example 4 - sample.txt
+$java HashTest 1.0 146 sample.txt 2 0
+
+Using Linear Probing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 39.834953
+
+
+Using Double Hashing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 4.23301
+
+// example 5 - sample.txt
+$java HashTest 0.75 sample.txt 2 1
+
+Using Linear Probing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 39.834953
+
+table[0]: Chef 0
+table[1]: Juanjo 0
+table[2]: Bernabeu 0
+table[3]: Contact 0
+table[4]: hello 0
+table[5]: humanstxt.org 0
+table[6]: Twitter 6
+table[7]: @juanjobernabeu 0
+table[8]: From 6
+table[9]: Barcelona 4
+table[10]: Catalonia 4
+table[11]: Spain 5
+table[12]: UI 0
+table[13]: developer 0
+table[14]: Maria 0
+table[15]: Macias 0
+table[16]: @maria_ux 0
+table[17]: One 0
+table[18]: eyed 0
+table[19]: illustrator 0
+table[20]: Carlos 0
+table[21]: Matas 0
+table[22]: @oneeyedman 0
+table[23]: Madrid 0
+table[24]: Spain 0
+table[25]: Standard 0
+table[26]: Man 0
+table[27]: Abel 0
+table[28]: Cabans 0
+table[29]: @abelcabans 0
+table[30]: Web 0
+table[31]: designer 0
+table[32]: Abel 0
+table[33]: Sutilo 0
+table[34]: @abelsutilo 0
+table[35]: Sevilla 0
+table[36]: Andalucia 0
+table[37]: EN 1
+table[38]: Translator 2
+table[39]: Jos 0
+table[40]: Flores 0
+table[41]: @prosciuttos 0
+table[42]: CA 0
+table[43]: Eva 0
+table[44]: AC 0
+table[45]: @evaac 0
+table[46]: Marta 0
+table[47]: Armada 0
+table[48]: Twitter 3
+table[49]: @martuishere 0
+table[50]: From 0
+table[51]: Barcelona 0
+table[52]: Catalonia 0
+table[53]: Spain 0
+table[54]: RU 0
+table[55]: Translator 1
+table[56]: Alexey 0
+table[57]: Bass 0
+table[58]: @alexey_bass 0
+table[59]: Location 2
+table[60]: Israel 0
+table[61]: Netanya 0
+table[62]: RU 0
+table[63]: Translator 1
+table[64]: Vladimir 0
+table[65]: Epifanov 0
+table[66]: @voldmar 0
+table[67]: Moscow 0
+table[68]: Russia 0
+table[69]: NL 0
+table[70]: Rowdy 0
+table[71]: Rabouw 0
+table[72]: @rowdyrabouw 0
+table[73]: Gouda 0
+table[74]: The 0
+table[75]: Netherlands 0
+table[76]: DE 0
+table[77]: Dennis 0
+table[78]: Fischer 0
+table[79]: Twitter 1
+table[80]: @ichderfisch 0
+table[81]: Location 1
+table[82]: Dusseldorf 0
+table[83]: Germany 0
+table[84]: CZ 0
+table[85]: Translator 3
+table[86]: Daniel 0
+table[87]: Kraiak 0
+table[88]: @krsiakdaniel 0
+table[89]: Czech 0
+table[90]: Republic 0
+table[91]: ZH 0
+table[92]: Ana 0
+table[93]: Villalba 0
+table[94]: Location 2
+table[95]: Spain 1
+table[96]: JA 0
+table[97]: Clamence 0
+table[98]: Haure 0
+table[99]: FR 0
+table[100]: Thibaud 0
+table[101]: Desodt 0
+table[102]: Belgium 0
+
+
+Using Double Hashing...
+Inserted 103 values with 43 duplicates
+Average number of probes: 3.4563107
+
+table[0]: Chef 0
+table[1]: Juanjo 0
+table[2]: Bernabeu 0
+table[3]: Contact 0
+table[4]: hello 0
+table[5]: humanstxt.org 0
+table[6]: Twitter 6
+table[7]: @juanjobernabeu 0
+table[8]: From 6
+table[9]: Barcelona 4
+table[10]: Catalonia 4
+table[11]: Spain 5
+table[12]: UI 0
+table[13]: developer 0
+table[14]: Maria 0
+table[15]: Macias 0
+table[16]: Matas 0
+table[17]: @martuishere 0
+table[18]: From 0
+table[19]: Madrid 0
+table[20]: Andalucia 0
+table[21]: Spain 0
+table[22]: RU 0
+table[23]: @maria_ux 0
+table[24]: Alexey 0
+table[25]: One 0
+table[26]: Twitter 1
+table[27]: eyed 0
+table[28]: @ichderfisch 0
+table[29]: illustrator 0
+table[30]: Germany 0
+table[31]: Carlos 0
+table[32]: Translator 3
+table[33]: Twitter 3
+table[34]: Kraiak 0
+table[35]: Standard 0
+table[36]: Spain 1
+table[37]: Location 2
+table[38]: Man 0
+table[39]: @oneeyedman 0
+table[41]: Abel 0
+table[43]: Spain 0
+table[44]: Cabans 0
+table[45]: Translator 1
+table[47]: @abelcabans 0
+table[49]: Sevilla 0
+table[51]: Web 0
+table[53]: @alexey_bass 0
+table[55]: designer 0
+table[56]: @krsiakdaniel 0
+table[57]: Location 1
+table[59]: Abel 0
+table[61]: Republic 0
+table[62]: Catalonia 0
+table[63]: Sutilo 0
+table[64]: EN 1
+table[65]: RU 0
+table[67]: Daniel 0
+table[68]: DE 0
+table[69]: Translator 2
+table[71]: @abelsutilo 0
+table[73]: Belgium 0
+table[74]: Jos 0
+table[75]: JA 0
+table[77]: CA 0
+table[79]: Flores 0
+table[83]: Netanya 0
+table[84]: Villalba 0
+table[87]: @prosciuttos 0
+table[89]: Eva 0
+table[92]: Location 2
+table[95]: AC 0
+table[99]: Barcelona 0
+table[101]: Ana 0
+table[103]: @evaac 0
+table[104]: Marta 0
+table[107]: @voldmar 0
+table[109]: NL 0
+table[111]: Armada 0
+table[113]: FR 0
+table[119]: Translator 1
+table[124]: Epifanov 0
+table[125]: Russia 0
+table[127]: CZ 0
+table[129]: Bass 0
+table[131]: Netherlands 0
+table[134]: Dusseldorf 0
+table[135]: Clamence 0
+table[139]: Israel 0
+table[143]: Vladimir 0
+table[146]: The 0
+table[149]: Rabouw 0
+table[154]: Haure 0
+table[155]: Fischer 0
+table[159]: Moscow 0
+table[161]: @rowdyrabouw 0
+table[164]: Czech 0
+table[167]: Rowdy 0
+table[169]: Thibaud 0
+table[174]: Dennis 0
+table[179]: Gouda 0
+table[189]: Desodt 0
+table[191]: ZH 0

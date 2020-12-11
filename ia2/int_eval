@@ -1,0 +1,9 @@
+NodeAssn.java:11:    public int eval(Environment env) throws EvalException {
+NodeExpr.java:22:    public int eval(Environment env) throws EvalException {
+NodeFactExpr.java:9:    public int eval(Environment env) throws EvalException {
+NodeFactFact.java:9:    public int eval(Environment env) throws EvalException {
+NodeFactId.java:10:    public int eval(Environment env) throws EvalException {
+NodeFactNum.java:9:    public int eval(Environment env) throws EvalException {
+Node.java:9:    public int eval(Environment env) throws EvalException {
+NodeStmt.java:9:    public int eval(Environment env) throws EvalException {
+NodeTerm.java:22:    public int eval(Environment env) throws EvalException {

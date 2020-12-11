@@ -1,0 +1,2708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="117" passed="117">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cache Testing Suite" duration-ms="578" started-at="2018-08-27T15:49:11Z" finished-at="2018-08-27T15:49:12Z">
+    <groups>
+    </groups>
+    <test name="Cache Size 10 Tests" duration-ms="578" started-at="2018-08-27T15:49:11Z" finished-at="2018-08-27T15:49:12Z">
+      <class name="Test_1_emptyCache">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="15" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testAdd" duration-ms="16" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testGet" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testClear()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testClear" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHitRate()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testGetHitRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHitRate -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testIsEmpty" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testRemove" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.remove(Cache.java:103)
+at TestCase.remove(TestCase.java:97)
+at Test_1_emptyCache.testRemove(Test_1_emptyCache.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetMissRate()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testGetMissRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMissRate -->
+        <test-method status="PASS" signature="testRemoveLast()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testRemoveLast" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.lang.IllegalStateException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException
+at Cache.removeLast(Cache.java:90)
+at TestCase.removeLast(TestCase.java:87)
+at Test_1_emptyCache.testRemoveLast(Test_1_emptyCache.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveLast -->
+        <test-method status="PASS" signature="testWrite()[pri:0, instance:Test_1_emptyCache@5419f379]" name="testWrite" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.write(Cache.java:119)
+at TestCase.write(TestCase.java:107)
+at Test_1_emptyCache.testWrite(Test_1_emptyCache.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_1_emptyCache@5419f379]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Test_1_emptyCache -->
+      <class name="Test_4_add10_get10_5in">
+        <test-method status="PASS" signature="testClear()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testClear" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testAdd" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_invalidElement()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="16" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHitRate()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGetHitRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHitRate -->
+        <test-method status="PASS" signature="testGetMissRate()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGetMissRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMissRate -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="16" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testIsEmpty" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_invalidElement()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.remove(Cache.java:106)
+at TestCase.remove(TestCase.java:97)
+at Test_4_add10_get10_5in.testRemove_invalidElement(Test_4_add10_get10_5in.java:142)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemoveLast()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemoveLast" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveLast -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="15" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_invalidElement()[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.write(Cache.java:119)
+at TestCase.write(TestCase.java:107)
+at Test_4_add10_get10_5in.testWrite_invalidElement(Test_4_add10_get10_5in.java:162)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_invalidElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="15" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_4_add10_get10_5in@4f933fd1]" name="testWrite_validElement" duration-ms="16" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+      </class> <!-- Test_4_add10_get10_5in -->
+      <class name="Test_3_add10_get10_9in">
+        <test-method status="PASS" signature="testClear()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testClear" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testAdd" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHitRate()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGetHitRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHitRate -->
+        <test-method status="PASS" signature="testGetMissRate()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGetMissRate" duration-ms="15" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMissRate -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_invalidElement()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="16" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testGet_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testIsEmpty" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemoveLast()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemoveLast" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveLast -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_invalidElement()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.remove(Cache.java:106)
+at TestCase.remove(TestCase.java:97)
+at Test_3_add10_get10_9in.testRemove_invalidElement(Test_3_add10_get10_9in.java:141)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_invalidElement()[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.write(Cache.java:119)
+at TestCase.write(TestCase.java:107)
+at Test_3_add10_get10_9in.testWrite_invalidElement(Test_3_add10_get10_9in.java:161)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="16" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement(java.lang.Integer)[pri:0, instance:Test_3_add10_get10_9in@d2cc05a]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" data-provider="validElements" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+      </class> <!-- Test_3_add10_get10_9in -->
+      <class name="Test_6_add10_get10_5in_clear">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="15" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testAdd" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testClear()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testClear" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testGet" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="testGetHitRate()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testGetHitRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHitRate -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetMissRate()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testGetMissRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMissRate -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testIsEmpty" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemoveLast()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testRemoveLast" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.lang.IllegalStateException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException
+at Cache.removeLast(Cache.java:90)
+at TestCase.removeLast(TestCase.java:87)
+at Test_6_add10_get10_5in_clear.testRemoveLast(Test_6_add10_get10_5in_clear.java:108)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveLast -->
+        <test-method status="PASS" signature="testRemove()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testRemove" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.remove(Cache.java:103)
+at TestCase.remove(TestCase.java:97)
+at Test_6_add10_get10_5in_clear.testRemove(Test_6_add10_get10_5in_clear.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite()[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="testWrite" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.write(Cache.java:119)
+at TestCase.write(TestCase.java:107)
+at Test_6_add10_get10_5in_clear.testWrite(Test_6_add10_get10_5in_clear.java:128)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_6_add10_get10_5in_clear@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Test_6_add10_get10_5in_clear -->
+      <class name="Test_2_emptyCache_getA_A">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testAdd" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testGetMissRate()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testGetMissRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMissRate -->
+        <test-method status="PASS" signature="testClear()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testClear" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHitRate()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testGetHitRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHitRate -->
+        <test-method status="PASS" signature="testGet_validElement()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testGet_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_validElement -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testIsEmpty" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemoveLast()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testRemoveLast" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveLast -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet_invalidElement()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testGet_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_invalidElement()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testRemove_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.remove(Cache.java:106)
+at TestCase.remove(TestCase.java:97)
+at Test_2_emptyCache_getA_A.testRemove_invalidElement(Test_2_emptyCache_getA_A.java:114)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite_invalidElement()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testWrite_invalidElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.write(Cache.java:119)
+at TestCase.write(TestCase.java:107)
+at Test_2_emptyCache_getA_A.testWrite_invalidElement(Test_2_emptyCache_getA_A.java:134)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_invalidElement -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove_validElement()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testRemove_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove_validElement -->
+        <test-method status="PASS" signature="testWrite_validElement()[pri:0, instance:Test_2_emptyCache_getA_A@7dc7cbad]" name="testWrite_validElement" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite_validElement -->
+      </class> <!-- Test_2_emptyCache_getA_A -->
+      <class name="Test_5_add10_get10_9in_clear">
+        <test-method status="PASS" signature="testClear()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testClear" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClear -->
+        <test-method status="PASS" signature="testGetHitRate()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testGetHitRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHitRate -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testAdd" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testGet" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testIsEmpty" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="16" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemove()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testRemove" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.remove(Cache.java:103)
+at TestCase.remove(TestCase.java:97)
+at Test_5_add10_get10_9in_clear.testRemove(Test_5_add10_get10_9in_clear.java:119)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemove -->
+        <test-method status="PASS" signature="testGetMissRate()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testGetMissRate" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMissRate -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testWrite()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testWrite" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at Cache.write(Cache.java:119)
+at TestCase.write(TestCase.java:107)
+at Test_5_add10_get10_9in_clear.testWrite(Test_5_add10_get10_9in_clear.java:129)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite -->
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRemoveLast()[pri:0, instance:Test_5_add10_get10_9in_clear@548a9f61]" name="testRemoveLast" duration-ms="0" started-at="2018-08-27T15:49:12Z" finished-at="2018-08-27T15:49:12Z">
+          <exception class="java.lang.IllegalStateException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException
+at Cache.removeLast(Cache.java:90)
+at TestCase.removeLast(TestCase.java:87)
+at Test_5_add10_get10_9in_clear.testRemoveLast(Test_5_add10_get10_9in_clear.java:109)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveLast -->
+      </class> <!-- Test_5_add10_get10_9in_clear -->
+    </test> <!-- Cache Size 10 Tests -->
+  </suite> <!-- Cache Testing Suite -->
+</testng-results>

@@ -1,0 +1,1174 @@
+<html>
+<head>
+<title>TestNG:  Cache Size 10 Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cache Size 10 Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>117/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 27 09:49:11 MDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (578 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test_1_emptyCache.testAdd()'><b>testAdd</b><br>Test class: Test_1_emptyCache</td>
+<td></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testAdd()'><b>testAdd</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testAdd()'><b>testAdd</b><br>Test class: Test_3_add10_get10_9in</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testAdd()'><b>testAdd</b><br>Test class: Test_4_add10_get10_5in</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testAdd()'><b>testAdd</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testAdd()'><b>testAdd</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testClear()'><b>testClear</b><br>Test class: Test_1_emptyCache</td>
+<td></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testClear()'><b>testClear</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testClear()'><b>testClear</b><br>Test class: Test_3_add10_get10_9in</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testClear()'><b>testClear</b><br>Test class: Test_4_add10_get10_5in</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testClear()'><b>testClear</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testClear()'><b>testClear</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testGet()'><b>testGet</b><br>Test class: Test_1_emptyCache</td>
+<td></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testGet()'><b>testGet</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testGet()'><b>testGet</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testGetHitRate()'><b>testGetHitRate</b><br>Test class: Test_1_emptyCache</td>
+<td></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testGetHitRate()'><b>testGetHitRate</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGetHitRate()'><b>testGetHitRate</b><br>Test class: Test_3_add10_get10_9in</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGetHitRate()'><b>testGetHitRate</b><br>Test class: Test_4_add10_get10_5in</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testGetHitRate()'><b>testGetHitRate</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testGetHitRate()'><b>testGetHitRate</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testGetMissRate()'><b>testGetMissRate</b><br>Test class: Test_1_emptyCache</td>
+<td></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testGetMissRate()'><b>testGetMissRate</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGetMissRate()'><b>testGetMissRate</b><br>Test class: Test_3_add10_get10_9in</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGetMissRate()'><b>testGetMissRate</b><br>Test class: Test_4_add10_get10_5in</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testGetMissRate()'><b>testGetMissRate</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testGetMissRate()'><b>testGetMissRate</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testGet_invalidElement()'><b>testGet_invalidElement</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_invalidElement()'><b>testGet_invalidElement</b><br>Test class: Test_3_add10_get10_9in</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_invalidElement()'><b>testGet_invalidElement</b><br>Test class: Test_4_add10_get10_5in</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 1</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 2</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 3</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 4</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 5</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 6</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 8</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 9</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 1</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 2</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 3</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 4</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 5</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 6</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 8</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 9</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testGet_validElement()'><b>testGet_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testIsEmpty()'><b>testIsEmpty</b><br>Test class: Test_1_emptyCache</td>
+<td></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testIsEmpty()'><b>testIsEmpty</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testIsEmpty()'><b>testIsEmpty</b><br>Test class: Test_3_add10_get10_9in</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testIsEmpty()'><b>testIsEmpty</b><br>Test class: Test_4_add10_get10_5in</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testIsEmpty()'><b>testIsEmpty</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testIsEmpty()'><b>testIsEmpty</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testRemove()'><b>testRemove</b><br>Test class: Test_1_emptyCache</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:103)
+	at TestCase.remove(TestCase.java:97)
+	at Test_1_emptyCache.testRemove(Test_1_emptyCache.java:90)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1206883981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1206883981'><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:103)
+	at TestCase.remove(TestCase.java:97)
+	at Test_1_emptyCache.testRemove(Test_1_emptyCache.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testRemove()'><b>testRemove</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:103)
+	at TestCase.remove(TestCase.java:97)
+	at Test_5_add10_get10_9in_clear.testRemove(Test_5_add10_get10_9in_clear.java:119)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace242355057", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace242355057'><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:103)
+	at TestCase.remove(TestCase.java:97)
+	at Test_5_add10_get10_9in_clear.testRemove(Test_5_add10_get10_9in_clear.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testRemove()'><b>testRemove</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:103)
+	at TestCase.remove(TestCase.java:97)
+	at Test_6_add10_get10_5in_clear.testRemove(Test_6_add10_get10_5in_clear.java:118)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1136497418", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1136497418'><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:103)
+	at TestCase.remove(TestCase.java:97)
+	at Test_6_add10_get10_5in_clear.testRemove(Test_6_add10_get10_5in_clear.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testRemoveLast()'><b>testRemoveLast</b><br>Test class: Test_1_emptyCache</td>
+<td><div><pre>java.lang.IllegalStateException
+	at Cache.removeLast(Cache.java:90)
+	at TestCase.removeLast(TestCase.java:87)
+	at Test_1_emptyCache.testRemoveLast(Test_1_emptyCache.java:80)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1525037790", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1525037790'><pre>java.lang.IllegalStateException
+	at Cache.removeLast(Cache.java:90)
+	at TestCase.removeLast(TestCase.java:87)
+	at Test_1_emptyCache.testRemoveLast(Test_1_emptyCache.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testRemoveLast()'><b>testRemoveLast</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemoveLast()'><b>testRemoveLast</b><br>Test class: Test_3_add10_get10_9in</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemoveLast()'><b>testRemoveLast</b><br>Test class: Test_4_add10_get10_5in</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testRemoveLast()'><b>testRemoveLast</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td><div><pre>java.lang.IllegalStateException
+	at Cache.removeLast(Cache.java:90)
+	at TestCase.removeLast(TestCase.java:87)
+	at Test_5_add10_get10_9in_clear.testRemoveLast(Test_5_add10_get10_9in_clear.java:109)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1957502751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1957502751'><pre>java.lang.IllegalStateException
+	at Cache.removeLast(Cache.java:90)
+	at TestCase.removeLast(TestCase.java:87)
+	at Test_5_add10_get10_9in_clear.testRemoveLast(Test_5_add10_get10_9in_clear.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testRemoveLast()'><b>testRemoveLast</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td><div><pre>java.lang.IllegalStateException
+	at Cache.removeLast(Cache.java:90)
+	at TestCase.removeLast(TestCase.java:87)
+	at Test_6_add10_get10_5in_clear.testRemoveLast(Test_6_add10_get10_5in_clear.java:108)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1429880200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1429880200'><pre>java.lang.IllegalStateException
+	at Cache.removeLast(Cache.java:90)
+	at TestCase.removeLast(TestCase.java:87)
+	at Test_6_add10_get10_5in_clear.testRemoveLast(Test_6_add10_get10_5in_clear.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testRemove_invalidElement()'><b>testRemove_invalidElement</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:106)
+	at TestCase.remove(TestCase.java:97)
+	at Test_2_emptyCache_getA_A.testRemove_invalidElement(Test_2_emptyCache_getA_A.java:114)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace990398217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace990398217'><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:106)
+	at TestCase.remove(TestCase.java:97)
+	at Test_2_emptyCache_getA_A.testRemove_invalidElement(Test_2_emptyCache_getA_A.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_invalidElement()'><b>testRemove_invalidElement</b><br>Test class: Test_3_add10_get10_9in</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:106)
+	at TestCase.remove(TestCase.java:97)
+	at Test_3_add10_get10_9in.testRemove_invalidElement(Test_3_add10_get10_9in.java:141)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace394714818", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace394714818'><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:106)
+	at TestCase.remove(TestCase.java:97)
+	at Test_3_add10_get10_9in.testRemove_invalidElement(Test_3_add10_get10_9in.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_invalidElement()'><b>testRemove_invalidElement</b><br>Test class: Test_4_add10_get10_5in</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:106)
+	at TestCase.remove(TestCase.java:97)
+	at Test_4_add10_get10_5in.testRemove_invalidElement(Test_4_add10_get10_5in.java:142)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace738433734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace738433734'><pre>java.util.NoSuchElementException
+	at Cache.remove(Cache.java:106)
+	at TestCase.remove(TestCase.java:97)
+	at Test_4_add10_get10_5in.testRemove_invalidElement(Test_4_add10_get10_5in.java:142)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 1</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 2</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 3</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 4</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 5</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 6</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 8</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 9</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 1</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 2</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 3</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 4</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 5</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 6</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 8</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 9</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testRemove_validElement()'><b>testRemove_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_1_emptyCache.testWrite()'><b>testWrite</b><br>Test class: Test_1_emptyCache</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_1_emptyCache.testWrite(Test_1_emptyCache.java:100)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1549409129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1549409129'><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_1_emptyCache.testWrite(Test_1_emptyCache.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_1_emptyCache@5419f379</td></tr>
+<tr>
+<td title='Test_5_add10_get10_9in_clear.testWrite()'><b>testWrite</b><br>Test class: Test_5_add10_get10_9in_clear</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_5_add10_get10_9in_clear.testWrite(Test_5_add10_get10_9in_clear.java:129)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1773206895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1773206895'><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_5_add10_get10_9in_clear.testWrite(Test_5_add10_get10_9in_clear.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_5_add10_get10_9in_clear@548a9f61</td></tr>
+<tr>
+<td title='Test_6_add10_get10_5in_clear.testWrite()'><b>testWrite</b><br>Test class: Test_6_add10_get10_5in_clear</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_6_add10_get10_5in_clear.testWrite(Test_6_add10_get10_5in_clear.java:128)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace212921632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace212921632'><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_6_add10_get10_5in_clear.testWrite(Test_6_add10_get10_5in_clear.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_6_add10_get10_5in_clear@1753acfe</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testWrite_invalidElement()'><b>testWrite_invalidElement</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_2_emptyCache_getA_A.testWrite_invalidElement(Test_2_emptyCache_getA_A.java:134)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1924582348", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1924582348'><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_2_emptyCache_getA_A.testWrite_invalidElement(Test_2_emptyCache_getA_A.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_invalidElement()'><b>testWrite_invalidElement</b><br>Test class: Test_3_add10_get10_9in</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_3_add10_get10_9in.testWrite_invalidElement(Test_3_add10_get10_9in.java:161)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace92150540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace92150540'><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_3_add10_get10_9in.testWrite_invalidElement(Test_3_add10_get10_9in.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_invalidElement()'><b>testWrite_invalidElement</b><br>Test class: Test_4_add10_get10_5in</td>
+<td><div><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_4_add10_get10_5in.testWrite_invalidElement(Test_4_add10_get10_5in.java:162)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1543237999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1543237999'><pre>java.util.NoSuchElementException
+	at Cache.write(Cache.java:119)
+	at TestCase.write(TestCase.java:107)
+	at Test_4_add10_get10_5in.testWrite_invalidElement(Test_4_add10_get10_5in.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_2_emptyCache_getA_A.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_2_emptyCache_getA_A</td>
+<td></td>
+<td>0</td>
+<td>Test_2_emptyCache_getA_A@7dc7cbad</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 1</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 2</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 3</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 4</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 5</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 6</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 8</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 9</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_3_add10_get10_9in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_3_add10_get10_9in<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>Test_3_add10_get10_9in@d2cc05a</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 1</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 2</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 3</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 4</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 5</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 6</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 7</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 8</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 9</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+<tr>
+<td title='Test_4_add10_get10_5in.testWrite_validElement()'><b>testWrite_validElement</b><br>Test class: Test_4_add10_get10_5in<br>Parameters: 10</td>
+<td></td>
+<td>0</td>
+<td>Test_4_add10_get10_5in@4f933fd1</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cache Testing Suite]">
+  <test thread-count="5" name="Cache Size 10 Tests(failed)">
+    <parameter name="cacheSize" value="10"/>
+    <classes>
+      <class name="Test_4_add10_get10_5in">
+        <methods>
+          <include name="testGetHitRate"/>
+          <include name="testGetMissRate"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_4_add10_get10_5in -->
+      <class name="Test_1_emptyCache">
+        <methods>
+          <include name="testGetMissRate"/>
+          <include name="initialize"/>
+          <include name="testGetHitRate"/>
+        </methods>
+      </class> <!-- Test_1_emptyCache -->
+      <class name="Test_6_add10_get10_5in_clear">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGetHitRate"/>
+          <include name="testGetMissRate"/>
+        </methods>
+      </class> <!-- Test_6_add10_get10_5in_clear -->
+    </classes>
+  </test> <!-- Cache Size 10 Tests(failed) -->
+</suite> <!-- Failed suite [Cache Testing Suite] -->

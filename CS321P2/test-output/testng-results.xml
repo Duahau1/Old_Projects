@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="134" passed="134">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Max Heap Testing Suite" duration-ms="1047" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:36Z">
+    <groups>
+    </groups>
+    <test name="Max Heap Tests" duration-ms="1047" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:36Z">
+      <class name="MaxHeapTest_12_tenElements_increaseKey_mid">
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testGetHeapSize" duration-ms="15" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_12_tenElements_increaseKey_mid@51565ec2]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+      </class> <!-- MaxHeapTest_12_tenElements_increaseKey_mid -->
+      <class name="MaxHeapTest_5_fiveElements_insert">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testHeapMax" duration-ms="16" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="16" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="testMaxHeapInsert" duration-ms="15" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_5_fiveElements_insert@7c16905e]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- MaxHeapTest_5_fiveElements_insert -->
+      <class name="MaxHeapTest_7_fiveElements_increaseKey_max">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testIncreaseHeapKey" duration-ms="15" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_7_fiveElements_increaseKey_max@2a5ca609]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+      </class> <!-- MaxHeapTest_7_fiveElements_increaseKey_max -->
+      <class name="MaxHeapTest_11_fiveElements_increaseKey_mid">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testHeapMax" duration-ms="15" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testIsEmpty" duration-ms="16" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_11_fiveElements_increaseKey_mid@675d3402]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- MaxHeapTest_11_fiveElements_increaseKey_mid -->
+      <class name="MaxHeapTest_2_fiveElements_extract">
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="15" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_2_fiveElements_extract@4f933fd1]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+      </class> <!-- MaxHeapTest_2_fiveElements_extract -->
+      <class name="MaxHeapTest_3_tenElements_extract">
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testExtractHeapMax" duration-ms="15" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:35Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_3_tenElements_extract@548a9f61]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- MaxHeapTest_3_tenElements_extract -->
+      <class name="MaxHeapTest_1_oneElement_extract">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_1_oneElement_extract@d2cc05a]" name="initialize" is-config="true" duration-ms="16" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_1_oneElement_extract@d2cc05a]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_1_oneElement_extract@d2cc05a]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_1_oneElement_extract@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_1_oneElement_extract@d2cc05a]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_1_oneElement_extract@d2cc05a]" name="testMaxHeapInsert" duration-ms="16" started-at="2018-09-22T04:04:35Z" finished-at="2018-09-22T04:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+      </class> <!-- MaxHeapTest_1_oneElement_extract -->
+      <class name="MaxHeapTest_10_tenElements_increaseKey_min">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testExtractHeapMax" duration-ms="15" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testHeapMax" duration-ms="16" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="16" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_10_tenElements_increaseKey_min@28feb3fa]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+      </class> <!-- MaxHeapTest_10_tenElements_increaseKey_min -->
+      <class name="MaxHeapTest_9_fiveElements_increaseKey_min">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testIncreaseHeapKey" duration-ms="31" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_9_fiveElements_increaseKey_min@68be2bc2]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- MaxHeapTest_9_fiveElements_increaseKey_min -->
+      <class name="MaxHeapTest_4_empty_insert">
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="initialize" is-config="true" duration-ms="15" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="testIncreaseHeapKey()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_4_empty_insert@1753acfe]" name="testMaxHeapInsert" duration-ms="15" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+      </class> <!-- MaxHeapTest_4_empty_insert -->
+      <class name="MaxHeapTest_6_tenElements_insert">
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_6_tenElements_insert@2a2d45ba]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+      </class> <!-- MaxHeapTest_6_tenElements_insert -->
+      <class name="MaxHeapTest_8_tenElements_increaseKey_max">
+        <test-method status="PASS" signature="testGetHeapSize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testGetHeapSize" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeapSize -->
+        <test-method status="PASS" signature="testExtractHeapMax()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testExtractHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testHeapMax()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testHeapMax" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeapMax -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="15" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="0" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testIncreaseHeapKey(int)[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIncreaseHeapKey" duration-ms="16" started-at="2018-09-22T04:04:36Z" data-provider="validIndexes" finished-at="2018-09-22T04:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncreaseHeapKey -->
+        <test-method status="PASS" signature="testIsEmpty()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testIsEmpty" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="initialize" is-config="true" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testMaxHeapInsert()[pri:0, instance:MaxHeapTest_8_tenElements_increaseKey_max@20e2cbe0]" name="testMaxHeapInsert" duration-ms="0" started-at="2018-09-22T04:04:36Z" finished-at="2018-09-22T04:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxHeapInsert -->
+      </class> <!-- MaxHeapTest_8_tenElements_increaseKey_max -->
+    </test> <!-- Max Heap Tests -->
+  </suite> <!-- Max Heap Testing Suite -->
+</testng-results>

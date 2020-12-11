@@ -1,0 +1,14 @@
+#!/bin/sh
+# CS 321 - CPUScheduler Testing
+
+# compile Java class files
+javac *.java
+
+# system tests with given probability
+java CPUScheduler 6 5 4 200 $1 > CPUScheduler_output
+
+# run again to compare results 
+java Test 6 5 4 200 CPUScheduler_output > Test_output
+
+# check if outputs are different 
+diff CPUScheduler_output Test_output > diff_output

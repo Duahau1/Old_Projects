@@ -1,0 +1,2 @@
+eval error, pos=40, division by 0
+eval error, pos=9, unrecognized identifier: foo

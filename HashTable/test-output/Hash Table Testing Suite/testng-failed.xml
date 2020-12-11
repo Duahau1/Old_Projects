@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hash Table Testing Suite]">
+  <test thread-count="5" name="Hash Table Tests with Default Settings(failed)">
+    <classes>
+      <class name="HashTableTest_12c_E4_putF5_E4F5_default">
+        <methods>
+          <include name="testGetNumProbes"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HashTableTest_12c_E4_putF5_E4F5_default -->
+      <class name="HashTableTest_01e_emptyHashTable_putM12_M12_default">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGetNumProbes"/>
+        </methods>
+      </class> <!-- HashTableTest_01e_emptyHashTable_putM12_M12_default -->
+      <class name="HashTableTest_12e_I8_putJ9_I8J9_default">
+        <methods>
+          <include name="testGetNumProbes"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HashTableTest_12e_I8_putJ9_I8J9_default -->
+      <class name="HashTableTest_01a_emptyHashTable_putA0_A0_default">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGetNumProbes"/>
+        </methods>
+      </class> <!-- HashTableTest_01a_emptyHashTable_putA0_A0_default -->
+      <class name="HashTableTest_01b_emptyHashTable_putD3_D3_default">
+        <methods>
+          <include name="testGetNumProbes"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HashTableTest_01b_emptyHashTable_putD3_D3_default -->
+      <class name="HashTableTest_01d_emptyHashTable_putJ9_J9_default">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGetNumProbes"/>
+        </methods>
+      </class> <!-- HashTableTest_01d_emptyHashTable_putJ9_J9_default -->
+      <class name="HashTableTest_12g_L11_putM12_L11M12_default">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGetNumProbes"/>
+        </methods>
+      </class> <!-- HashTableTest_12g_L11_putM12_L11M12_default -->
+      <class name="HashTableTest_01c_emptyHashTable_putG6_G6_default">
+        <methods>
+          <include name="testGetNumProbes"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HashTableTest_01c_emptyHashTable_putG6_G6_default -->
+      <class name="HashTableTest_12d_G6_putH7_G6H7_default">
+        <methods>
+          <include name="testGetNumProbes"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HashTableTest_12d_G6_putH7_G6H7_default -->
+      <class name="HashTableTest_12a_A0_putB1_A0B1_default">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGetNumProbes"/>
+        </methods>
+      </class> <!-- HashTableTest_12a_A0_putB1_A0B1_default -->
+      <class name="HashTableTest_12b_C2_putD3_C2D3_default">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGetNumProbes"/>
+        </methods>
+      </class> <!-- HashTableTest_12b_C2_putD3_C2D3_default -->
+      <class name="HashTableTest_12f_K10_putL11_K10L11_default">
+        <methods>
+          <include name="testGetNumProbes"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HashTableTest_12f_K10_putL11_K10L11_default -->
+    </classes>
+  </test> <!-- Hash Table Tests with Default Settings(failed) -->
+</suite> <!-- Failed suite [Hash Table Testing Suite] -->

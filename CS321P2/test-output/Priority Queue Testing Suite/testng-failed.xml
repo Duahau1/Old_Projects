@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Priority Queue Testing Suite]">
+  <test thread-count="5" name="Priority Queue Tests(failed)">
+    <classes>
+      <class name="PriorityQueueTest_10_tenElements_increaseKey_min">
+        <methods>
+          <include name="testMaximum"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_10_tenElements_increaseKey_min -->
+      <class name="PriorityQueueTest_6_tenElements_insert">
+        <methods>
+          <include name="initialize"/>
+          <include name="testMaximum"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_6_tenElements_insert -->
+      <class name="PriorityQueueTest_11_fiveElements_increaseKey_mid">
+        <methods>
+          <include name="initialize"/>
+          <include name="testMaximum"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_11_fiveElements_increaseKey_mid -->
+      <class name="PriorityQueueTest_2_fiveElements_extract">
+        <methods>
+          <include name="testMaximum"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_2_fiveElements_extract -->
+      <class name="PriorityQueueTest_3_tenElements_extract">
+        <methods>
+          <include name="testMaximum"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_3_tenElements_extract -->
+      <class name="PriorityQueueTest_5_fiveElements_insert">
+        <methods>
+          <include name="testMaximum"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_5_fiveElements_insert -->
+      <class name="PriorityQueueTest_9_fiveElements_increaseKey_min">
+        <methods>
+          <include name="initialize"/>
+          <include name="testMaximum"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_9_fiveElements_increaseKey_min -->
+      <class name="PriorityQueueTest_4_empty_insert">
+        <methods>
+          <include name="testMaximum"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_4_empty_insert -->
+      <class name="PriorityQueueTest_7_fiveElements_increaseKey_max">
+        <methods>
+          <include name="testMaximum"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_7_fiveElements_increaseKey_max -->
+      <class name="PriorityQueueTest_8_tenElements_increaseKey_max">
+        <methods>
+          <include name="initialize"/>
+          <include name="testMaximum"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_8_tenElements_increaseKey_max -->
+      <class name="PriorityQueueTest_12_tenElements_increaseKey_mid">
+        <methods>
+          <include name="testMaximum"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- PriorityQueueTest_12_tenElements_increaseKey_mid -->
+    </classes>
+  </test> <!-- Priority Queue Tests(failed) -->
+</suite> <!-- Failed suite [Priority Queue Testing Suite] -->

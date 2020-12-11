@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="102" started-at="2018-08-24T23:17:57Z" finished-at="2018-08-24T23:17:57Z">
+    <groups>
+    </groups>
+    <test name="test 1" duration-ms="102" started-at="2018-08-24T23:17:57Z" finished-at="2018-08-24T23:17:57Z">
+      <class name="TestNGSimpleTest">
+        <test-method status="PASS" signature="testDataProvider(java.lang.Integer)[pri:0, instance:TestNGSimpleTest@1810399e]" name="testDataProvider" duration-ms="31" started-at="2018-08-24T23:17:57Z" data-provider="validElements" finished-at="2018-08-24T23:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method status="PASS" signature="testDataProvider(java.lang.Integer)[pri:0, instance:TestNGSimpleTest@1810399e]" name="testDataProvider" duration-ms="1" started-at="2018-08-24T23:17:57Z" data-provider="validElements" finished-at="2018-08-24T23:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method status="PASS" signature="testString()[pri:0, instance:TestNGSimpleTest@1810399e]" name="testString" duration-ms="7" started-at="2018-08-24T23:17:57Z" finished-at="2018-08-24T23:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testString -->
+      </class> <!-- TestNGSimpleTest -->
+    </test> <!-- test 1 -->
+  </suite> <!-- Suite 1 -->
+</testng-results>

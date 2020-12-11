@@ -1,0 +1,6 @@
+java CircuitTracer <-s | -q> <-c | -g> <file>
+Options:
+   -q   -- use a queue for storage
+   -s   -- use a stack for storage
+   -g   -- run program in GUI mode 
+   -c   -- run program in console mode

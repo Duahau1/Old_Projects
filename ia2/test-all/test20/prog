@@ -1,0 +1,3 @@
+rd # test read# x;
+wr 3*x + # a pretty basic#1 + x#test#*x#also tests rd error handling#
+

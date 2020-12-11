@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="HashTableTest_10g_N13_removeN13_emptyHashTable_default">
+        <methods>
+          <include name="testContains"/>
+          <include name="testIsEmpty"/>
+          <include name="testSize"/>
+          <include name="initialize"/>
+          <include name="testGetCapacity"/>
+          <include name="testGetNumProbes"/>
+          <include name="testClear"/>
+          <include name="testGetNumDuplicates"/>
+          <include name="testGetType"/>
+          <include name="testRemove"/>
+          <include name="testGetHash"/>
+          <include name="testGetFrequency"/>
+          <include name="testPut"/>
+          <include name="testGetMaxSize"/>
+          <include name="testGetLoadFactor"/>
+        </methods>
+      </class> <!-- HashTableTest_10g_N13_removeN13_emptyHashTable_default -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
